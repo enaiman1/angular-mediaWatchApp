@@ -51,6 +51,7 @@ export class MediaItemFormComponent implements OnInit {
 
     onSubmit(mediaItem) {
         console.log(mediaItem);
-        this.mediaItemSerivce.add(mediaItem);
+        this.mediaItemSerivce.add(mediaItem)
+        .subscribe;
     }
 }
